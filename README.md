@@ -17,7 +17,7 @@
 - [ ] Create a view to the main page.
 - [ ] Create a view to list all the clinics.
 - [ ] Create a view to show the details of a single clinic (all information about the clinic).
-- [ ] In the clinics list view, turn each clinic into a link if clicked will open the view of details.
+- [ ] In the product list view, turn each clinic into a link if clicked will open the view of details.
 - [ ] Create a view to list all the products.
 - [ ] Create a view to show the details of a single product (all information about the product).
 - [ ] Create a view that allows users to review their order and complete payment process.
@@ -31,7 +31,7 @@
 ![ER-Diagram](https://user-images.githubusercontent.com/81977986/121236423-9e3b3380-c89e-11eb-8ecc-ceee498ebe00.jpeg)
 
 ## Team Members:
-1. Ebraheem Abdulrazzaq 2152116170 (Manager)
-2. Tahani Almutairi 2181145412
-3. Ahmed Ali 2171120186
+1. *Ebraheem Abdulrazzaq (Manager) *
+2. *Tahani Almutairi *
+3. *Ahmed Ali *
 
