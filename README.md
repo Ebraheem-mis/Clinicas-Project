@@ -1,4 +1,4 @@
-# clinicas Project
+# Clinicas Project
 
 **The Project will be an application that brings together dermanotolgy, laser and skin care clinics in kuwait in one place, making it easier for pations to search and choose the suitable one for them. The clinics can advantage of the appointment system provided by the application, products gallery and advertising.**
 
