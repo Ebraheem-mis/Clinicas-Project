@@ -20,6 +20,7 @@
 - [ ] In the clinics list view, turn each clinic into a link if clicked will open the view of details.
 - [ ] Create a view to list all the products.
 - [ ] Create a view to show the details of a single product (all information about the product).
+- [ ] Create a view that allows users to review their order and complete payment process.
 - [ ] Create a view that allows users to reserve and schedule their appointments.
 - [ ] Create a view that allows users to review and rating their order.
 - [ ] Create a view that allows users to saving their favorite.
