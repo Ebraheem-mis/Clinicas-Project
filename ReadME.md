@@ -31,7 +31,7 @@
 ![ER-Diagram](https://user-images.githubusercontent.com/81977986/121236423-9e3b3380-c89e-11eb-8ecc-ceee498ebe00.jpeg)
 
 ## Team Members:
-1. **Ebraheem Abdulrazzaq.(Manager)**
-2. **Tahani Almutairi.**
-3. **Ahmed Ali.**
+1. Ebraheem Abdulrazzaq.(Manager)
+2. Tahani Almutairi.
+3. Ahmed Ali.
 
