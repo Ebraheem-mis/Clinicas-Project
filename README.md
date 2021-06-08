@@ -1,45 +1,36 @@
-[![Work in Repl.it](https://classroom.github.com/assets/work-in-replit-14baed9a392b3a25080506f3b7b6d57f295ec2978f6f33ec97e36a161684cbe9.svg)](https://classroom.github.com/online_ide?assignment_repo_id=426764&assignment_repo_type=GroupAssignmentRepo)
-# Developing Django on Repl.it
+# clinicas Project
 
-- Fork this template to get started
-- Simply hit run to start the server
-- The server will autoreload as needed. You don't need to restart the server manually.
+**The Project will be an application that brings together dermanotolgy, laser and skin care clinics in kuwait in one place, making it easier for pations to search and choose the suitable one for them. The clinics can advantage of the appointment system provided by the application, products gallery and advertising.**
 
-## Add your first view
-
-1. Create a file under `mysite` named `views.py` with the following contents:
-
-```
-from django.http import HttpResponse
+**Due to the large number of clinics in kuwait and some of them lack for organiz appointments and the marketing the application will be useful for both users.**
 
 
-def index(request):
-    return HttpResponse("Hello, world.")
-```
+## Requirements:
 
-2. Add a url pattern under `mysite/urls.py`. It should look like this:
+- [ ] App will display a gallery for products.
+- [ ] User can buy skin care products.
+- [ ] App will show Profile for every clinic where display information about it and location.
+- [ ] User can reserve and schedule appointments.
+- [ ] User can review and rating products and clinics.
+- [ ] App will contain advanced search.
+- [ ] App will contain a wish and favorite list.
+- [ ] Create a view to the main page.
+- [ ] Create a view to list all the clinics.
+- [ ] Create a view to show the details of a single clinic (all information about the clinic).
+- [ ] In the clinics list view, turn each clinic into a link if clicked will open the view of details.
+- [ ] Create a view to list all the products.
+- [ ] Create a view to show the details of a single product (all information about the product).
+- [ ] Create a view that allows users to reserve and schedule their appointments.
+- [ ] Create a view that allows users to review and rating their order.
+- [ ] Create a view that allows users to saving their favorite.
 
-```
-from django.contrib import admin
-from django.urls import path
-from . import views
 
-urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('', views.index, name='index'),
-]
-```
+## ER-Diagram:
 
-## Shell
+![ER-Diagram](https://user-images.githubusercontent.com/81977986/121236423-9e3b3380-c89e-11eb-8ecc-ceee498ebe00.jpeg)
 
-Django utilizes the shell for managing your site. For this click on the `?` in the lower-right corner and click "Workspace shortcuts" from there you can open a new shell pane. 
+## Team Members:
+1. Ebraheem Abdulrazzaq 2152116170 (Manager)
+2. Tahani Almutairi 2181145412
+3. Ahmed Ali 2171120186
 
-## Database
-
-By default this template utilizes the sqlite database engine. While this is fine for development it won't work with external users of your app as we don't persist changes to files when they happen outside the development environment. 
-
-We suggest bringing a database using an outside service. 
-
-See Django documentation on how to setup a database: https://docs.djangoproject.com/en/3.0/intro/tutorial02/
-
-based on  amasad/django-template
