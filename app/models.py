@@ -13,19 +13,19 @@ class Patient(models.Model):
 
 class Clinic(models.Model):
     clinic_name = models.CharField(max_length=50)
-    clinic_email = models.EmailField(max_length=254)
     clinic_phone = models.IntegerField()
     clinic_area = models.CharField(max_length=50)
-    clinic_address = models.CharField(max_length=100)
+    clinic_location = models.URLField(max_length=200)
 
+    def __str__(self):
+      return self.clinic_name 
+  
 
 class Doctor(models.Model):
     doctor_name = models.CharField(max_length=50)
     majoring = models.CharField(max_length=50)
-    clinic_email = models.EmailField(max_length=254)
-    clinic_phone = models.IntegerField()
+    doctor_phone = models.IntegerField()
     clinic = models.ForeignKey('Clinic', on_delete=models.CASCADE,)
-    
 
 
 class Appointment(models.Model):
