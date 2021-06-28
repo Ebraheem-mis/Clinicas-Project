@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+
+<body>
+  
+<tr>
+    <td> <h2> Services </h2> </td>
+  </tr>
+  <tr>
+    <td> # </td>
+    <td> Service Type </td>
+  </tr>
+  {% for s in service %}
+  <tr>
+    <td> # </td>
+    <td> {{s.service_type}} </td>
+  </tr>
+  {% endfor %}
+
+</body>
+
+
+</html>
